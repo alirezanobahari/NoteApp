@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Note</string>
+
+    <string name="newNote">New Note</string>
+    <string name="newVisualNote">New Visual Note</string>
+
+    <string name="_default">DEFAULT</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="title">Title</string>
+    <string name="writeNote">Write Note</string>
+
+    <string name="save">SAVE</string>
+    <string name="favorites">FAVORITES</string>
+
+    <string name="add">ADD</string>
+
+    <string name="folderNameNeeded">Folder Name Needed</string>
+
+    <string name="selectFolderTooAdd">Select Folder To Add</string>
+
+    <string name="home">Home</string>
+
+    <string name="bold">BOLD</string>
+    <string name="italic">Italic</string>
+
+    <string name="expoting">Exporting Notes ... !</string>
+
+    <string name="importingNotes">Importing Notes ...!</string>
+
+    <string name="exportedSuccessfully">Notes Exported Successfully To : </string>
+    <string name="expotingUnSuccessful">Exporting UnSuccessful</string>
+
+    <string name="titleNeeded">Title Needed</string>
+
+    <string name="noteSaved">Note Saved</string>
+    <string name="canceled">Note Canceled</string>
+    <string name="noteEdited">Note Edited</string>
+
+    <string name="enterNote">Enter Note</string>
+    <string name="enterFolderName">Folder Name</string>
+
+
+    <string name="textStyle">TEXT STYLING</string>
+
+    <string name="importFromFile">Import</string>
+    <string name="exportToFile">Export</string>
+
+    <string name="changeLayout">CHANGE LAYOUT</string>
+
+    <string name="addToFavorites">Add To Favorites</string>
+    <string name="removeFromFavorites">Remove From Favorites</string>
+
+    <string name="addToFolder">Add To Folder</string>
+    <string name="removeFromFolder">Remove From Folder</string>
+
+    <string name="renameFolder">Rename Folder</string>
+    <string name="deleteFolder">Delete Folder</string>
+
+    <string name="rename">RENAME</string>
+
+    <string name="warning">Warning</string>
+
+    <string name="allNotesDelete">Are you sure?\n All notes in this folder will be deleted.</string>
+
+    <string name="deleteNote">Delete Note</string>
+
+    <string name="selectTextError">You Must Select Text First</string>
+
+    <string name="exportAlert">Do you want to export all of you\'r notes to SD-Card?</string>
+
+
+    <string name="pickImport">Select File To Import</string>
+
+    <string name="noNoteFoundToExport">No Note Found To Export</string>
+
+    <string name="importingSuccessful">Notes Imported Successfully</string>
+    <string name="importingUnsuccessful">Importing UnSuccessful</string>
+
+    <string name="noFolderFound">No Folder Found!!!</string>
+</resources>

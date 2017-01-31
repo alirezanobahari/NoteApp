@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_add_to_favorite" type="id"/>
+    <item name="action_remove_from_favorite" type="id"/>
+    <item name="action_add_to_folder" type="id"/>
+    <item name="action_remove_from_folder" type="id"/>
+    <item name="action_delete_note" type="id"/>
+
+    <item name="action_rename_folder" type="id"/>
+    <item name="action_delete_folder" type="id"/>
+</resources>
