@@ -25,6 +25,8 @@ import com.individual.noteapp.models.Note;
 import com.individual.noteapp.utils.AppUtils;
 import com.individual.noteapp.utils.ResizeAnimation;
 import com.individual.noteapp.utils.UiUtils;
+import com.orm.query.Condition;
+import com.orm.query.Select;
 
 import java.util.Date;
 
@@ -54,6 +56,7 @@ public class NoteActivity extends BaseActivity {
 
         initViews();
         loadData();
+
 
     }
 
