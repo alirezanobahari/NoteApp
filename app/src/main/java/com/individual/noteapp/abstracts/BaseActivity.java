@@ -85,8 +85,6 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
 
 
 
-
-
     public void closeKeyboard() {
         View view = this.getCurrentFocus();
         if (view != null) {

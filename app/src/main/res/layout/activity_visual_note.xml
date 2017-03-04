@@ -47,6 +47,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:padding="7dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
                     android:layout_centerInParent="true"
                     android:id="@+id/imgPenColor"/>
 
@@ -86,6 +87,7 @@
                     android:padding="7dp"
                     android:layout_centerInParent="true"
                     android:id="@+id/btnEraser"
+                    android:background="?attr/selectableItemBackgroundBorderless"
                     android:tint="@color/secondary_text"
                     android:src="@drawable/ic_earaser"/>
 

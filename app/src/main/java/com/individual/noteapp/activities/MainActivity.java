@@ -44,6 +44,7 @@ import com.nbsp.materialfilepicker.MaterialFilePicker;
 import com.nbsp.materialfilepicker.ui.FilePickerActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -131,9 +132,11 @@ public class MainActivity extends BaseActivity implements NoteRecyclerAdapter.No
             if (firstLoad)
                 setToolbarTitle(folderController.getFolderById(folderId).getFolderName());
             if ((notes = noteController.getNotesByFolderId(folderId)).size() != 0) {
+                Collections.reverse(notes);
                 noteAdapter.setData(notes);
                 showNoteNotFound(false, false);
             } else {
+                Collections.reverse(notes);
                 noteAdapter.setData(notes);
                 showNoteNotFound(true, false);
             }
@@ -141,9 +144,11 @@ public class MainActivity extends BaseActivity implements NoteRecyclerAdapter.No
             List<Note> notes;
             setToolbarTitle(getResources().getString(R.string.home));
             if ((notes = noteController.getNotesByFolderId(HOME_FOLDER_ID)).size() != 0) {
+                Collections.reverse(notes);
                 noteAdapter.setData(notes);
                 showNoteNotFound(false, false);
             } else {
+                Collections.reverse(notes);
                 noteAdapter.setData(notes);
                 showNoteNotFound(true, false);
             }
